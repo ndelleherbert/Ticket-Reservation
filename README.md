@@ -18,10 +18,10 @@ This is a project(website) that enables users to reserve travelling Tickets for 
 git pull upstream master --rebase
 _____
 After making a change
-git add .
-git commit
-gut push origin master
-if you want me to add your change to the project, make a pull request
+git add ., 
+git commit, 
+gut push origin master, 
+if you want me to add your change to the project, make a pull request, 
 _______
 Never do
 git push upstream master❌❌
