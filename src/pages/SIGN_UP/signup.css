@@ -1,0 +1,47 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-image:  url('../../../res/images/signup.jfif');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Set a style for all buttons */
+button{
+
+      
+        background-color:black;
+        opacity: 0.8;
+        color: white;
+        cursor: pointer;
+        border-width: 0px;
+        border-radius: 70px 15px 70px 15px;
+        padding: 50px 10px;
+        width: 150px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: center;
+        margin: auto;
+        display:block;
+        position: relative;
+        top: 50%;
+       
+}
+button:visited{
+    background-color: yellow;
+    opacity: 0.5;
+
+}
+
+button:hover{
+    background-color: tomato;
+    opacity: 0.5;
+
+}
+
