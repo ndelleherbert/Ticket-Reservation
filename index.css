@@ -1,5 +1,5 @@
-/*This is the theme folder where we'll define our standatd colors and theme*/
-:theme{
-    --primary-color: #2b2b2b;
-    --secondary-color: green;
+/*This is the theme folder where we'll define our standatd colors and theme */
+:theme {
+  --primary-color: #2b2b2b;
+  --secondary-color: green;
 }
