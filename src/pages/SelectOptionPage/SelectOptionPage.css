@@ -4,18 +4,129 @@ body {
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-image: url(../../../res/images/bg.png);
+  /* background-image: url(../../../res/images/select1.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  perspective: 100rem;
 }
 
 .house {
-  width: 60%;
-  height: 85vh;
-  background-color: aqua;
+  width: 100%;
+  height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
   flex-direction: row;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  perspective: 100rem;
+}
+
+.listItem {
+  width: 450px;
+  height: 45%;
+  margin: 10px 50px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-decoration: none;
+  perspective: 100rem;
+}
+
+.listItem:hover {
+  transform: scale(1.1);
+  transition: all ease 1s;
+  cursor: pointer;
+}
+
+.listItem:hover .description {
+  color: indigo;
+}
+
+.listItem:hover .title {
+  display: none;
+}
+
+.listItem:hover .image {
+  opacity: 1;
+}
+
+.imageAndTitle {
+  width: 100%;
+  /* background-color: red; */
+  justify-content: center;
+}
+
+.descriptionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.image {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+  opacity: 0.8;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.description {
+  color: #dcdde1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sideContainer {
+  display: flex;
+  background-color: rgba(30, 55, 153, 1);
+  width: 30%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  perspective: 100rem;
+}
+
+.sideImage {
+  width: 100px;
+  height: 100px;
+  animation: image-float 25s infinite;
+}
+
+@keyframes image-float {
+  0% {
+    transform: translateZ(40rem);
+    opacity: 1;
+  }
+  40% {
+    transform: translateZ(-500rem) translateX(150rem);
+    opacity: 0.8;
+  }
+  70% {
+    transform: translateZ(-700rem) translateX(800rem);
+    opacity: 0.6;
+  }
+  70% {
+    transform: translateZ(-50rem) translateX(100rem);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateZ(40rem);
+    opacity: 1;
+  }
 }
