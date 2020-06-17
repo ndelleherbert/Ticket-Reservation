@@ -1,13 +1,5 @@
-body{
-    margin: 0px;
-    padding: 0px;
- }
- .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
- }
-a{
-    text-decoration: none
+/*This is the theme folder where we'll define our standatd colors and theme */
+:theme {
+  --primary-color: #2b2b2b;
+  --secondary-color: green;
 }
