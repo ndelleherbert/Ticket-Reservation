@@ -6,12 +6,9 @@ body {
 
 
 div.content {
-  margin-left: 0;
-<<<<<<< HEAD
+ 
   padding: 1px 100px;
-=======
-  padding: 1px 16px;
->>>>>>> c7f30a0305618999da95e2889108ce944785467c
+ 
   height: 1000px;
 }
 
@@ -23,11 +20,8 @@ div.content {
 
 
   
-<<<<<<< HEAD
-/*input[type=text], select, textarea {
-=======
+
 input[type=text], select, textarea {
->>>>>>> c7f30a0305618999da95e2889108ce944785467c
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -39,10 +33,7 @@ input[type=text], select, textarea {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-<<<<<<< HEAD
-  */
-=======
->>>>>>> c7f30a0305618999da95e2889108ce944785467c
+ 
   
   input[type=submit] {
     background-color: #4CAF50;
@@ -75,7 +66,6 @@ input[type=text], select, textarea {
     width: 75%;
     margin-top: 6px;
   }
-<<<<<<< HEAD
 
   .col-4{
     float: left;
@@ -85,8 +75,6 @@ input[type=text], select, textarea {
     float: left;
     padding: 15px;
   }
-=======
->>>>>>> c7f30a0305618999da95e2889108ce944785467c
   .row{
       border-bottom: 1px solid black;
       margin-top: 5px;
