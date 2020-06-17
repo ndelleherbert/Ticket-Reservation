@@ -37,3 +37,4 @@ create three files..one for css,one file html,one for js with the same names
 Signup.html,Signup.css,Signup.js begining in Capitals
 if you use any images, plase put it inside images folder in the res folder
 then reference the image from there
+.
