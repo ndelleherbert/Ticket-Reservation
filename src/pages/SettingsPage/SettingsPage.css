@@ -7,7 +7,7 @@ body {
 
 div.content {
   margin-left: 0;
-  padding: 1px 16px;
+  padding: 1px 100px;
   height: 1000px;
 }
 
@@ -19,7 +19,7 @@ div.content {
 
 
   
-input[type=text], select, textarea {
+/*input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -31,6 +31,7 @@ input[type=text], select, textarea {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
+  */
   
   input[type=submit] {
     background-color: #4CAF50;
@@ -62,6 +63,15 @@ input[type=text], select, textarea {
     float: left;
     width: 75%;
     margin-top: 6px;
+  }
+
+  .col-4{
+    float: left;
+    padding: 15px;
+  }
+  .col-3{
+    float: left;
+    padding: 15px;
   }
   .row{
       border-bottom: 1px solid black;
