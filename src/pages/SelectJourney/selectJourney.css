@@ -116,6 +116,7 @@ form{
     box-shadow: 1px 2px 10px black;
  border-radius:5%;
     position: relative;
+    transition: 3s;
 }
 .box:hover{
     
